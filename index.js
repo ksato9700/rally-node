@@ -1,5 +1,6 @@
 var util = require('./lib/util'),
-    RestApi = require('./lib/restapi');
+    RestApi = require('./lib/co-restapi');
+//    RestApi = require('./lib/restapi');
 
 function restApi(options) {
     return new RestApi(options);
