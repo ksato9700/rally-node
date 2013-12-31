@@ -1,35 +1,41 @@
 {
-    "name": "rally",
-    "version": "0.1.1",
-    "description": "Rally REST Toolkit for Node.js",
-    "contributors": [
-        {
-            "name": "Kyle Morse",
-            "email": "kmorse@rallydev.com"
-        }
-    ],
-    "main": "index.js",
-    "scripts": {
-        "test": "mocha spec/*.js spec/**/*.js"
+  "name": "rally",
+  "version": "0.1.1",
+  "description": "Rally REST Toolkit for Node.js",
+  "contributors": [
+    {
+      "name": "Kyle Morse",
+      "email": "kmorse@rallydev.com"
     },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/RallyTools/rally-node.git"
-    },
-    "dependencies": {
-        "request": "2.29.x",
-        "q": "0.9.7",
-        "lodash": "2.4.x"
-    },
-    "devDependencies": {
-        "mocha": "1.15.x",
-        "should": "2.1.x",
-        "sinon": "1.7.x"
-    },
-    "author": "Kyle Morse",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/RallyTools/rally-node/issues"
-    },
-    "homepage": "https://github.com/RallyTools/rally-node"
+    {
+      "name": "Ken Sato",
+      "email": "ksato9700@gmail.com"
+    }
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony spec/*.js spec/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RallyTools/rally-node.git"
+  },
+  "dependencies": {
+    "request": "2.29.x",
+    "q": "0.9.7",
+    "lodash": "2.4.x",
+    "thunkify": "0.0.1"
+  },
+  "devDependencies": {
+    "mocha": "1.15.x",
+    "should": "2.1.x",
+    "sinon": "1.7.x",
+    "co": "~3.0.1"
+  },
+  "author": "Kyle Morse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RallyTools/rally-node/issues"
+  },
+  "homepage": "https://github.com/RallyTools/rally-node"
 }
