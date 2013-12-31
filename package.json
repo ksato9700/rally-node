@@ -6,11 +6,15 @@
     {
       "name": "Kyle Morse",
       "email": "kmorse@rallydev.com"
+    },
+    {
+      "name": "Ken Sato",
+      "email": "ksato9700@gmail.com"
     }
   ],
   "main": "index.js",
   "scripts": {
-    "test": "mocha spec/*.js spec/**/*.js"
+    "test": "mocha --harmony spec/*.js spec/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -25,7 +29,8 @@
   "devDependencies": {
     "mocha": "1.15.x",
     "should": "2.1.x",
-    "sinon": "1.7.x"
+    "sinon": "1.7.x",
+    "co": "~3.0.1"
   },
   "author": "Kyle Morse",
   "license": "MIT",
