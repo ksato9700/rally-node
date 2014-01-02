@@ -24,7 +24,8 @@
     "request": "2.29.x",
     "q": "0.9.7",
     "lodash": "2.4.x",
-    "thunkify": "0.0.1"
+    "thunkify": "0.0.1",
+    "cogent": "~0.3.2"
   },
   "devDependencies": {
     "mocha": "1.15.x",
